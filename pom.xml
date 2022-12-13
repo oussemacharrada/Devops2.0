@@ -86,11 +86,5 @@
 			</plugin>
 		</plugins>
 	</build>
-<distributionManagement>
-<repository>
-<id>spring-backend</id>
-<name>spring-backend</name>
-<url>http://localhost:8081/repository/maven-releases/</url>
-</repository>
-</distributionManagement>
+
 </project>
