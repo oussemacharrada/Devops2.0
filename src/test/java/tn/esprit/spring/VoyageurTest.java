@@ -1,4 +1,4 @@
-/*package tn.esprit.spring;
+package tn.esprit.spring;
 
 
 
@@ -50,8 +50,8 @@ public class VoyageurTest {
     @Test
     void addVoyageurTest()
     {
-       // Voyageur voyageur = new Voyageur();
-      /*  for (Voyageur v : voyageurs)
+      Voyageur voyageur = new Voyageur();
+       for (Voyageur v : voyageurs)
         {
             voyageurService.ajouterVoyageur(v);
             verify(voyageurRepository, times(1)).save(v);
@@ -60,7 +60,7 @@ public class VoyageurTest {
         Voyageur v1 = new Voyageur();
 
         v1.setIdVoyageur(1L);
-        v1.setNomVoyageur("Skander");
+        v1.setNomVoyageur("oussema");
 
         verify(voyageurRepository).save(v1);
 
@@ -74,4 +74,3 @@ public class VoyageurTest {
 
 
 }
-*/
